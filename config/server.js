@@ -14,7 +14,7 @@ var expressValidator = require('express-validator');
 var app = express();
 
 /*DOTENV */
-require('dotEnv').config()
+require('dotenv').config()
 
 /* setar as variáveis 'view engine' e 'views' do express */
 app.set('view engine', 'ejs');
