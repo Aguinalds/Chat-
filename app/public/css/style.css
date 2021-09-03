@@ -1,8 +1,20 @@
 body {
-    background-color: #444;
-    background: url('../images/login-bg.jpg');  
+    background-color: rgb(24, 22, 22);
+    color:  rgb(16, 114, 179);
 }
-
+.btn {
+    border: none;
+    background-color:  rgb(32, 148, 226);
+}
+.btn:hover {
+    border: none;
+    background-color: rgb(16, 114, 179);
+    transition: ease-in-out 0.4s;
+}
+.row-fluid {
+    
+    background-color: rgb(24, 22, 22);
+}
 .form-signin input[type="text"] {
     margin-bottom: 5px;
     border-bottom-left-radius: 0;
@@ -38,13 +50,17 @@ body {
 }
 .panel {
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgb(24, 22, 22);
     border: 1px solid transparent;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+.panel-default>.panel-heading {
 
+    background-color: rgb(24, 22, 22);
+    border-color: none;
+}
 .linha_usuario{
     display: block;
     margin-top:10px;
@@ -80,21 +96,39 @@ img {
 }
 
 .dialogo{
+    border-radius: 15px;
 	width:100%;
 	height:auto;
 	margin-bottom:15px;
 	padding:10px;
-	background:#D8F0FE;
+	background:rgb(56, 55, 55);
 }
 
 .dialogo h4{
-	font-size:15px;
+	font-size:17px;
 	font-weight: bold;
-	color:#8B7777;
+	color:rgb(32, 148, 226);
 }
 
 .dialogo p{
-	font-size:12px;
+	font-size:15px;
 	padding-left:15px;
-	color:#8B7777;
+	color:#ffffff;
+}
+.navbar {
+    border: none;
+    background-color: rgb(56, 55, 55);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:  rgb(32, 148, 226);
+    background-color: transparent;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: rgb(32, 148, 226);
+    background-color: transparent;
+}
+
+#enviar_mensagem{
+    width: 80px;
+    height: 34px;
 }
