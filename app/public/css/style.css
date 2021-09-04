@@ -96,8 +96,10 @@ img {
 }
 
 .dialogo{
+    
+    
     border-radius: 15px;
-	width:100%;
+	width:auto;
 	height:auto;
 	margin-bottom:15px;
 	padding:10px;
@@ -131,4 +133,14 @@ img {
 #enviar_mensagem{
     width: 80px;
     height: 34px;
+}
+.dialogo2{
+    
+    
+    border-radius: 15px;
+	width:50%;
+	height:auto;
+	margin-bottom:15px;
+	padding:10px;
+	background:rgb(56, 55, 55);
 }

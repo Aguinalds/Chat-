@@ -18,5 +18,7 @@ module.exports.iniciaChat = function (application, req, res) {
         { apelido: dadosForm.apelido, mensagem: 'On-line' }
     )
 
+   
+
     res.render('chat', { dadosForm: dadosForm });
 }
